@@ -1,0 +1,40 @@
+
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Build and test outputs
+dist/
+build/
+coverage/
+
+# Temporary files and logs
+*.log
+*.tmp
+*.temp
+.cache/
+temp/
+
+# Local media and rendering outputs
+uploads/
+renders/
+exports/
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+  
